@@ -3,22 +3,13 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
-
-public class BankApp {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Welcome to the Bank App");
-    }
-}
 
 interface AccountOperations {
     void withdraw(double amount);
     void deposit(double amount);
 }
-
 
 //abstract USER class
 //determines the type of user and their permissions
