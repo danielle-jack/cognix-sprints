@@ -31,10 +31,11 @@ public class Runner {
         sc.close();
 }
 
-//ADMIN DASHBOARD
+//----------------------------- ADMIN DASHBOARD -----------------------------
 private static void adminDashboard(Admin admin) {
     boolean exit = false;
     while (!exit) {
+        System.out.println("-----------------------------");
         System.out.println("Admin Dashboard");
         System.out.println("1. View all customers");
         System.out.println("2. View all accounts");
@@ -65,15 +66,15 @@ private static void adminDashboard(Admin admin) {
     }
 }
 
-//CUSTOMER DASHBOARD
+//----------------------------- CUSTOMER DASHBOARD -----------------------------
 private static void customerDashboard(Customer customer) {
     boolean exit = false;
     while (!exit) {
+        System.out.println("-----------------------------");
         System.out.println("Customer Dashboard");
         System.out.println("1. View my accounts");
-        System.out.println("2. Deposit to an account");
-        System.out.println("3. Withdraw from an account");
-        System.out.println("4. Exit");
+        System.out.println("2. Withdraw/Deposit to an account");
+        System.out.println("3. Exit");
         System.out.println("Please select an option: ");
         int choice = sc.nextInt();
         sc.nextLine();
