@@ -1,0 +1,10 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.zip
+
+# Dependencies & builds
+node_modules/
+dist/
+target/
