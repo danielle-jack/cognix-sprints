@@ -1,0 +1,96 @@
+/* --- GLOBAL APP STYLES --- */
+.app {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+/* --- HERO SECTION --- */
+.hero {
+  padding: 60px 20px;
+  background-color: #f4f7f6;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* The box holding the buttons */
+.cta {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+/* Base button style*/
+button.primary, button.secondary {
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* The blue 'Lets Get Started' button */
+button.primary {
+  background-color: #3498db;
+  color: white;
+  border: none;
+}
+button.primary:hover {
+  background-color: #2980b9;
+}
+
+/* The outlined 'Learn More' button */
+button.secondary {
+  background-color: transparent;
+  color: #3498db;
+  border: 2px solid #3498db;
+}
+button.secondary:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.hero-image img {
+  max-width: 400px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+
+/* --- FEATURES SECTION --- */
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.feature-card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05); /*"card" effect */
+  max-width: 300px;
+  border-top: 4px solid #3498db;
+}
+
+.feature-card h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* --- FOOTER --- */
+.footer {
+  padding: 20px;
+  background-color: #2c3e50;
+  color: white;
+  font-size: 14px;
+}
